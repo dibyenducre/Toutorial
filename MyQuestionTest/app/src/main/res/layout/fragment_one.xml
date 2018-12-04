@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneFragment"
+    android:background="#C2C200"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ONE" />
+
+
+    <Button
+        android:text="ONE"
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <FrameLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/container"
+        android:background="#C200FF"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"></FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -16,27 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".SecondActivity" />
+
         <receiver android:name=".MyReciver">
             <intent-filter>
                 <action android:name="com.MyReceiver" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".MyIntentService"/>
+        <service android:name=".MyIntentService" />
+        <service android:name=".MyServiceBind" />
 
-        <service android:name=".MyServiceBind"/>
-
-        <receiver android:name="com.app.myquestiontest.newtask.MyNewBroadCastReciver">
-
-            <intent-filter >
-
-                <action android:name="com.app.myquestiontest.new"></action>
-
+        <receiver android:name=".newtask.MyNewBroadCastReciver">
+            <intent-filter>
+                <action android:name="com.app.myquestiontest.new" />
             </intent-filter>
-
         </receiver>
 
+        <activity android:name=".listview.ListViewActivity"></activity>
     </application>
 
 </manifest>
